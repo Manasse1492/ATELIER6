@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.app.acControl">
+   <children>
+      <Pane prefHeight="452.0" prefWidth="260.0" style="-fx-background-color: gray;">
+         <children>
+            <Label alignment="CENTER" layoutY="-3.0" prefHeight="65.0" prefWidth="260.0" text="acceuil" textFill="#0b0b0b" />
+            <Label fx:id="ajout" alignment="CENTER" layoutY="128.0" onMouseClicked="#ajouter" prefHeight="34.0" prefWidth="260.0" text="ajouter un livre" textFill="#0b0b0b" />
+            <Label fx:id="del" alignment="CENTER" layoutY="201.0" onMouseClicked="#delete" prefHeight="34.0" prefWidth="260.0" text="supprimer un livre" textFill="#0b0b0b" />
+         </children>
+      </Pane>
+      <Pane layoutX="260.0" layoutY="1.0" prefHeight="452.0" prefWidth="505.0">
+         <children>
+            <Label layoutX="13.0" layoutY="6.0" prefHeight="25.0" prefWidth="237.0" text="SMART LIBRAIRIE COLLECTION" />
+            <TableView fx:id="table" layoutX="-2.0" layoutY="39.0" prefHeight="414.0" prefWidth="505.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="ID.LIVRE" />
+                <TableColumn fx:id="nom" prefWidth="150.66668701171875" text="NOM" />
+                  <TableColumn fx:id="auteur" prefWidth="150.66668701171875" text="AUTEUR" />
+                  <TableColumn fx:id="type" prefWidth="150.66668701171875" text="TYPE" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+      <Pane layoutX="1.0" layoutY="452.0" prefHeight="100.0" prefWidth="768.0" style="-fx-background-color: teal;">
+         <children>
+            <Button fx:id="quit" layoutX="124.0" layoutY="37.0" mnemonicParsing="false" onAction="#quitter" style="-fx-background-color: red;" text="Quitter" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
