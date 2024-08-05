@@ -6,14 +6,13 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.Pane?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.app.acControl">
    <children>
       <Pane prefHeight="452.0" prefWidth="260.0" style="-fx-background-color: gray;">
          <children>
-            <Label alignment="CENTER" layoutY="-3.0" prefHeight="65.0" prefWidth="260.0" text="acceuil" textFill="#0b0b0b" />
-            <Label fx:id="ajout" alignment="CENTER" layoutY="128.0" onMouseClicked="#ajouter" prefHeight="34.0" prefWidth="260.0" text="ajouter un livre" textFill="#0b0b0b" />
-            <Label fx:id="del" alignment="CENTER" layoutY="201.0" onMouseClicked="#delete" prefHeight="34.0" prefWidth="260.0" text="supprimer un livre" textFill="#0b0b0b" />
+            <Label alignment="CENTER" layoutY="-3.0" prefHeight="65.0" prefWidth="260.0" text="Acceuil" textFill="#0b0b0b" />
+            <Label fx:id="ajout" alignment="CENTER" layoutY="128.0" onMouseClicked="#ajouter" prefHeight="34.0" prefWidth="260.0" text="Ajouter un livre" textFill="#0b0b0b" />
+            <Label fx:id="del" alignment="CENTER" layoutY="201.0" onMouseClicked="#delete" prefHeight="34.0" prefWidth="260.0" text="Supprimer un livre" textFill="#0b0b0b" />
          </children>
       </Pane>
       <Pane layoutX="260.0" layoutY="1.0" prefHeight="452.0" prefWidth="505.0">
