@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## NOM DE L APP
 
 ## DESCRIPTION
@@ -9,3 +10,6 @@ dans la base de donnees
 -supprimer un livre:
 elle permet de supprimer un livre de la base de donnees
 
+=======
+# projet6
+>>>>>>> 69f281dac5d0b400e3d3763b21d234d51f593ee4
